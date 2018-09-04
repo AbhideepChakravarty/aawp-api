@@ -5,7 +5,6 @@
  */
 package com.fastserve.aawp.api;
 
-import io.swagger.annotations.Api;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
 import javax.ws.rs.Produces;
@@ -21,7 +20,7 @@ import javax.ws.rs.core.MediaType;
  * @author Admin
  */
 @Path("generic")
-@Api(value = "Run the post method to make Payara 5.182 fail")
+//@Api(value = "Run the put method to make Payara 5.182 fail")
 public class GenericResource {
 
     @Context
@@ -54,4 +53,6 @@ public class GenericResource {
        
         return content;
     }
+    
+    
 }

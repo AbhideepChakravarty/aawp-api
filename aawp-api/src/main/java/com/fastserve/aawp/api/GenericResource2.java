@@ -5,7 +5,6 @@
  */
 package com.fastserve.aawp.api;
 
-import io.swagger.annotations.Api;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
 import javax.ws.rs.Produces;
@@ -21,7 +20,7 @@ import javax.ws.rs.core.MediaType;
  * @author Admin
  */
 @Path("another")
-@Api(value = "Run the put method and it will work")
+//@Api(value = "Run the put method and it will work")
 public class GenericResource2 {
 
     @Context
