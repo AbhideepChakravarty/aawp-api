@@ -72,6 +72,7 @@ public class ApplicationConfig extends Application {
         resources.add(com.fasterxml.jackson.jaxrs.json.JsonMappingExceptionMapper.class);
         resources.add(com.fasterxml.jackson.jaxrs.json.JsonParseExceptionMapper.class);
         resources.add(com.fastserve.aawp.api.GenericResource.class);
+        resources.add(com.fastserve.aawp.api.GenericResource2.class);
         resources.add(io.swagger.jaxrs.listing.AcceptHeaderApiListingResource.class);
         resources.add(io.swagger.jaxrs.listing.ApiListingResource.class);
         resources.add(io.swagger.jaxrs.listing.SwaggerSerializers.class);
